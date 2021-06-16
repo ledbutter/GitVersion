@@ -9,8 +9,8 @@ different ways. Read about the options below.
 
 ### .NET Global Tool
 
-GitVersion can be installed as a [.NET global tool][dotnet-tool] under the name
-[`GitVersion.Tool`][tool] by executing the following in a terminal:
+GitVersion can be installed as a [.NET global tool](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install) under the name
+[`GitVersion.Tool`](https://www.nuget.org/packages/GitVersion.Tool/) by executing the following in a terminal:
 
 ```shell
 dotnet tool install --global GitVersion.Tool
@@ -26,7 +26,7 @@ dotnet-gitversion
 
 ### Homebrew
 
-To install the [`gitversion`][brew] formula with [Homebrew](https://brew.sh/),
+To install the [`gitversion`](https://formulae.brew.sh/formula/gitversion) formula with [Homebrew](https://brew.sh/),
 enter the following into a terminal:
 
 ```shell
@@ -43,7 +43,7 @@ of writing: Linux and macOS).
 ### Chocolatey
 
 Available on [Chocolatey](http://chocolatey.org) as
-[`GitVersion.Portable`][choco].
+[`GitVersion.Portable`](https://community.chocolatey.org/packages/GitVersion.Portable).
 
 ```shell
 choco install GitVersion.Portable
@@ -54,7 +54,7 @@ of writing: Windows).
 
 ### Docker
 
-[`gittools/gitversion`][docker] allows you to use GitVersion through Docker,
+[`gittools/gitversion`](https://hub.docker.com/r/gittools/gitversion/) allows you to use GitVersion through Docker,
 without installing any other dependencies. To use the Docker image, execute
 the following:
 
